@@ -1,0 +1,54 @@
+.taskadd{
+    margin-top: 140px;
+    margin-right: 140px;
+    margin-left:140px;
+}
+.lis{
+    display:inline-block;
+}
+.hbold{
+    
+    font-family: sans-serif;
+    display: inline-block;
+    
+}
+.hlight{
+    font-family: sans-serif;
+    color:darkgrey;
+    font-weight: lighter;
+    display:inline-block
+       
+}
+.add{
+    display:inline-block;
+    margin-left:155px
+}
+.material-icons{
+    color:brown;
+    
+}
+.addl{
+    font-family: sans-serif;
+    color:darkgrey;
+    font-weight: lighter;
+    display:inline-block
+}
+.flex-container{
+    display: flex;
+    margin-left:140px
+    
+}
+.flex-items{
+    padding-left:15px;
+    padding-right:15px;
+    height: 200px;
+    border:3px solid red;
+    border-radius: 5px;
+}
+.itemmarg1{
+    margin-left:20px;
+}
+.itemmarg2{
+    margin-left:20px;
+}
+
