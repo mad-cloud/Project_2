@@ -1,3 +1,6 @@
+.flex{
+    margin-left:370px;
+}
 .taskadd{
     margin-top: 140px;
     margin-right: 140px;
@@ -35,13 +38,13 @@
 }
 .flex-container{
     display: flex;
-    margin-left:140px
+    margin-left:140px;
     
 }
 .flex-items{
     padding-left:15px;
     padding-right:15px;
-    height: 200px;
+    height: 250px;
     border:3px solid red;
     border-radius: 5px;
 }
