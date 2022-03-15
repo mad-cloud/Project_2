@@ -9,6 +9,12 @@
 .lis{
     display:inline-block;
 }
+@media only screen and (min-width:320px) and (max-width:480px){
+    .lis{
+        display: inline-block;
+         margin-top:50px;
+    }
+}
 .hbold{
     
     font-family: sans-serif;
@@ -22,9 +28,21 @@
     display:inline-block
        
 }
+@media only screen and (min-width:320px) and (max-width:480px){
+    .hbold, .hlight{
+         display:inline-block;
+        
+    }
+}
 .add{
     display:inline-block;
     margin-left:155px
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .add{
+        display: inline-block;
+         margin-left:0px;
+    }
 }
 .material-icons{
     color:brown;
@@ -36,10 +54,22 @@
     font-weight: lighter;
     display:inline-block
 }
+@media only screen and (min-width:320px) and (max-width:480px){
+    .addl{
+        display:none;
+    }
+}
 .flex-container{
     display: flex;
     margin-left:140px;
     
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+}
 }
 .flex-items{
     padding-left:15px;
@@ -47,6 +77,12 @@
     height: 250px;
     border:3px solid red;
     border-radius: 5px;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .flex-items{
+         width:220px;
+        flex:100%;
+    }
 }
 .itemmarg1{
     margin-left:20px;
